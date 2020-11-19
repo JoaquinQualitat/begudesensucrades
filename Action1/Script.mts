@@ -83,6 +83,7 @@ With Browser("B").Page("P")
 	num_justificante = Split(.WebElement("Núm. de justificant").GetROProperty("innertext"))(3)
 	importe = .WebTable("Autoliquidació").GetCellData(10, 4)
 	writeParameterFile "Begudes_Ensucrades_01-01.txt", num_justificante & " " & importe
+
 End With
 
 '@Description	Valida que un campo tiene el texto esperado.
