@@ -1,0 +1,190 @@
+<Environment>
+	<Variable>
+		<Name>Entorn</Name>
+		<Value>PRE</Value>
+		<!-- 	PRE / PRUATC / PRU / DEV / EVO
+			Ya no hace falta cambiar también la URL.
+		 -->
+	</Variable>
+
+<!-- URLs de Gaudi -->
+	<Variable>
+		<Name>PRE_ANTES_EXA</Name>
+		<Value>https://preproduccio.gaudi.e-tributs.cat/</Value>
+		<!-- Antes https://preproduccio.gaudi.e-tributs.cat/gt_web/index.jsp -->
+	</Variable>
+	<Variable>
+		<Name>PRE</Name>
+		<Value>https://preproduccio.gaudi.atc.intranet.gencat.cat/</Value>
+	</Variable>
+	<Variable>
+		<Name>PRUATC</Name>
+		<Value>http://gtgaudi.int.serveis.atc.gencat.cat/gt_web/index.jsp</Value>
+	</Variable>
+	<Variable>
+		<Name>PRU</Name>
+		<Value>https://integracio.gaudi.atc.intranet.gencat.cat/</Value>
+	</Variable>
+	<Variable>
+		<Name>DEV</Name>
+		<Value>http://10.144.16.105/gt_web/index.jsp</Value>
+	</Variable>
+	<Variable>
+		<Name>EVO</Name>
+		<Value>https://evo.gaudi.atc.intranet.gencat.cat/</Value>
+	</Variable>
+	<Variable>
+		<Name>EVO_ANTES_EXA</Name>
+		<Value>https://evo.gaudi.e-tributs.cat/</Value>
+	</Variable>
+	<Variable>
+		<Name>P-R-O</Name>
+		<Value>h-t-t-p-s-:-/-/-g-a-u-d-i-.-e-t-r-i-b-u-t-s-.-c-a-t/</Value>
+		<!--	Nuevo entorno de produccion, con WebLogic 12,
+			probado antes de entrar en servicio.
+			El acento sobre la o hace que UFT falle al leer XML. Curioso.
+			El acento sobre la a y la e, no. Muy curioso.
+		 -->
+	</Variable>
+
+	<Variable>
+		<Name>BDF</Name>
+		<Value>https://preproduccio.bdf.atc.intranet.gencat.cat/nwbc/</Value>
+	</Variable>
+<!-- URLs del Portal Tributario -->
+	<Variable>
+		<Name>Portal_PRE</Name>
+		<Value>https://preproduccio.seu.atc.intranet.gencat.cat</Value>
+		<!--Antes http://preproduccio.atc.gencat.cat/ca/inici-->
+		<!--Antes https://preproduccio.e-tributs.cat/ca/OficinaVirtual-->
+	</Variable>
+	<Variable>
+		<Name>Portal_EVO</Name>
+		<Value>https://evo.e-tributs.cat/ca/OficinaVirtual</Value>
+	</Variable>
+	<Variable>
+		<Name>Portal_PRU</Name>
+		<Value>https://integracio.seu.atc.intranet.gencat.cat/</Value>
+	</Variable>
+
+<!-- URLs de iPlan -->
+	<Variable>
+		<Name>iPlan_PRE</Name>
+		<Value>https://preproduccio.gaudi.atc.intranet.gencat.cat/iplan/</Value>
+	</Variable>
+	<Variable>
+		<Name>iPlan_PRU</Name>
+		<Value>https://integracio.gaudi.atc.intranet.gencat.cat/iplan/</Value>
+	</Variable>
+
+<!-- URLs del Gestor de Sortides -->
+	<Variable>
+		<Name>GS_PRE</Name>
+		<Value>https://preproduccio.gs.atc.intranet.gencat.cat/consola</Value>
+	</Variable>
+	<Variable>
+		<Name>GS_PRU</Name>
+		<Value>https://integracio.gs.atc.intranet.gencat.cat/consola</Value>
+	</Variable>
+
+<!-- URLs de Data Warehouse -->
+	<Variable>
+		<Name>DWH_PRE</Name>
+		<Value>https://preproduccio.dwh.atc.intranet.gencat.cat/analytics/saw.dll?bieehome</Value>
+	</Variable>
+
+<!-- URLs de la Base de Datos Fiscal -->
+	<Variable>
+		<Name>BDF_PRE</Name>
+		<Value>https://preproduccio.bdf.atc.intranet.gencat.cat/nwbc</Value>
+	</Variable>
+
+<!-- Para crear ejecuciones de Portal en Test Lab -->
+	<Variable>
+		<Name>Servidor_QC</Name>
+		<Value>https://centre.qualitat.solucions.gencat.cat/qcbin</Value>
+	</Variable>
+	<Variable>
+		<Name>Dominio_Portal</Name>
+		<Value>LOTA05</Value>
+	</Variable>
+	<Variable>
+		<Name>Proyecto_Portal</Name>
+		<Value>0206_GAUDI</Value>
+	</Variable>
+	<Variable>
+		<Name>Version</Name>
+		<Value>Root\zz Development\Portal</Value>
+	</Variable>
+	<Variable>
+		<Name>RUTA_PROGRAMA_AYUDA</Name>
+		<Value>C:\Tributs\Ajudes</Value>
+	</Variable>
+	<Variable>
+		<Name>RUTA_DECLARACIONS</Name>
+		<Value>C:\Tributs\Ajudes\modelos\</Value>
+	</Variable>
+	<Variable>
+		<Name>RUTA_DATASHEETS</Name>
+		<Value>C:\QTP_Files\PT_Excels\Portal.xlsx</Value>
+	</Variable>
+	<Variable>
+		<Name>AUTENTICACION</Name>
+		<Value>ALTRES</Value>
+		<!-- AOC / ALTRES -->
+	</Variable>
+
+<!-- Navegadores -->
+	<Variable>
+		<Name>BrowserChrome</Name>
+		<Value>C:\Program Files\Google\Chrome\Application\chrome.exe</Value>
+	</Variable>
+	<Variable>
+		<Name>BrowserIE</Name>
+		<Value>C:\Program Files\Internet Explorer\iexplore.exe</Value>
+	</Variable>
+	<Variable>
+		<Name>BrowserIEx86</Name>
+		<Value>C:\Program Files (x86)\Internet Explorer\iexplore.exe</Value>
+	</Variable>
+	<Variable>
+		<Name>BrowserFirefox</Name>
+		<Value>C:\Program Files\Mozilla Firefox\firefox.exe</Value>
+	</Variable>
+
+<!-- Configuracion general -->
+	<Variable>
+		<Name>ImageCaptureForTestResults</Name>
+		<Value>Always</Value>
+		<!-- De más a menos imágenes: Always / OnWarning / OnError / Never -->
+	</Variable>
+	<Variable>
+		<Name>PDF_Mode</Name>
+		<Value>1</Value>
+		<!-- ATC: 1 / Leon: 0 -->
+	</Variable>
+	<Variable>
+		<Name>ObjectSyncTimeOut</Name>
+		<Value>60000</Value>
+		<!-- milisegons -->
+	</Variable>
+	<Variable>
+		<Name>DisableSmartIdentification</Name>
+		<Value>True</Value>
+		<!-- True / False -->
+	</Variable>
+	<Variable>
+		<Name>SettingsRunOnError</Name>
+		<Value>Stop</Value>
+		<!-- Dialog / NextIteration / NextStep / Stop -->
+	</Variable>
+	<Variable>
+		<Name>BrowserNavigationTimeout</Name>
+		<Value>60000</Value>
+		<!-- milisegons -->
+	</Variable>
+	<Variable>
+		<Name>WinSCPExe</Name>
+		<Value>C:\Archivos de programa\WinSCP\winscp.exe</Value>
+	</Variable>
+</Environment>
